@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA0AF7C1D35E42A000824BF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0AF7B1D35E42A000824BF /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		8F16AE841D35E1BE00C50D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16AE831D35E1BE00C50D4A /* main.m */; };
 		8F16AE871D35E1BE00C50D4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16AE861D35E1BE00C50D4A /* AppDelegate.m */; };
 		8F16AE8A1D35E1BE00C50D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16AE891D35E1BE00C50D4A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FA0AF7A1D35E42A000824BF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3FA0AF7B1D35E42A000824BF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8F16AE7F1D35E1BE00C50D4A /* HELLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HELLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F16AE831D35E1BE00C50D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F16AE851D35E1BE00C50D4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				8F16AE861D35E1BE00C50D4A /* AppDelegate.m */,
 				8F16AE881D35E1BE00C50D4A /* ViewController.h */,
 				8F16AE891D35E1BE00C50D4A /* ViewController.m */,
+				3FA0AF7A1D35E42A000824BF /* Person.h */,
+				3FA0AF7B1D35E42A000824BF /* Person.m */,
 				8F16AE8B1D35E1BE00C50D4A /* Main.storyboard */,
 				8F16AE8E1D35E1BE00C50D4A /* Assets.xcassets */,
 				8F16AE901D35E1BE00C50D4A /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 			files = (
 				8F16AE8A1D35E1BE00C50D4A /* ViewController.m in Sources */,
 				8F16AE871D35E1BE00C50D4A /* AppDelegate.m in Sources */,
+				3FA0AF7C1D35E42A000824BF /* Person.m in Sources */,
 				8F16AE841D35E1BE00C50D4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +408,7 @@
 				8F16AEA31D35E1BE00C50D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F16AEA41D35E1BE00C50D4A /* Build configuration list for PBXNativeTarget "HELLOTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				8F16AEA61D35E1BE00C50D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
